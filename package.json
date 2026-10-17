@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "start": "node server/index.js",
     "server": "node server/index.js",
     "validate:db": "python scripts/validate_database.py",
     "build:mobile": "vite build && cap sync android",
