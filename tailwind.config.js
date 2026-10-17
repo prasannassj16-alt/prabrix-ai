@@ -1,0 +1,87 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: 'class',
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        navy: {
+          950: '#060B18',
+          900: '#0B132B',
+          850: '#0E1736',
+          800: '#111C38',
+          700: '#1C2541',
+          600: '#273456',
+          500: '#3A506B',
+        },
+        charcoal: {
+          950: '#0B0F19',
+          900: '#0F172A',
+          800: '#1E293B',
+          700: '#334155',
+          600: '#475569',
+        },
+        teal: {
+          50: '#F0FDFA',
+          100: '#CCFBF1',
+          200: '#99F6E4',
+          300: '#5EEAD4',
+          400: '#2DD4BF',
+          500: '#14B8A6',
+          600: '#0D9488',
+          700: '#0F766E',
+          800: '#115E59',
+          900: '#134E4A',
+          950: '#042F2E',
+        },
+        cyan: {
+          50: '#ECFEFF',
+          100: '#CFFAFE',
+          400: '#22D3EE',
+          500: '#06B6D4',
+          600: '#0891B2',
+          700: '#0E7490',
+        },
+        brand: {
+          50: '#f0fdf4',
+          100: '#dcfce7',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#166534',
+          900: '#14532d',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        heading: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+      },
+      boxShadow: {
+        'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.06), 0 4px 6px -2px rgba(0, 0, 0, 0.03)',
+        'glow': '0 0 25px -5px rgba(13, 148, 136, 0.3)',
+        'glow-cyan': '0 0 30px -5px rgba(6, 182, 212, 0.35)',
+        'card': '0 1px 3px rgba(0, 0, 0, 0.05), 0 10px 25px -5px rgba(0, 0, 0, 0.04)',
+        'card-hover': '0 20px 35px -10px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(13, 148, 136, 0.2)',
+        'card-dark': '0 4px 20px -2px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05)',
+      },
+      borderRadius: {
+        'xl': '0.875rem',
+        '2xl': '1.125rem',
+        '3xl': '1.5rem',
+      },
+      zIndex: {
+        'dropdown': '1000',
+        'sticky': '1020',
+        'modal-backdrop': '1040',
+        'modal': '1050',
+        'toast': '1060',
+        'tooltip': '1070',
+      },
+    },
+  },
+  plugins: [],
+}

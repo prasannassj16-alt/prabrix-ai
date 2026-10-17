@@ -1,0 +1,51 @@
+# Node & Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Production Build Output
+dist/
+build/
+
+# Testing & Reports
+coverage/
+playwright-report/
+test-results/
+.nyc_output/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Certificates & Keys
+.cert/
+*.pem
+*.key
+*.cert
+
+# Android & Mobile Signing Secrets (STRICT: Never commit release keys or passwords)
+*.jks
+*.keystore
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/gradle.properties
+!android/gradle.properties.example
+

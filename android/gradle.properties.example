@@ -1,0 +1,9 @@
+# PRABRIX AI - Local Gradle Release Signing Properties Example
+# Copy this file to android/gradle.properties for release APK building.
+# STRICT RULE: NEVER commit android/gradle.properties with actual passwords.
+
+# Keystore Location (absolute path or relative to android/app directory)
+RELEASE_STORE_FILE=../prabrix-release-key.jks
+RELEASE_STORE_PASSWORD=YourKeystorePasswordHere
+RELEASE_KEY_ALIAS=prabrix-key-alias
+RELEASE_KEY_PASSWORD=YourKeyPasswordHere
